@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".UiWidgetActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <!--  button-->
+            <Button
+                android:id="@+id/myBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="show me a toast"/>
+
+            <!--  toggle-->
+            <ToggleButton
+                android:id="@+id/myToggleBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <!--  switch-->
+            <Switch
+                android:id="@+id/mySwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/man"
+                />
+            <ImageButton
+                android:id="@+id/myImageBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/man"
+                android:background="#fff"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="this is a checkbox"
+                />
+            <Button
+                android:id="@+id/alertBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="show alert button"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
